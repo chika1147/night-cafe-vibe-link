@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ページのタイトル（ブラウザのタブに表示される） -->
+  <title>Night Cafe VIBE | Link Page</title>
+
+  <!-- ===== スタイル（デザイン）ここから ===== -->
+  <style>
+    /* 画面全体の基本設定 */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(180deg, #0b0f1a, #111827);
+      color: #ffffff;
+    }
+
+    /* ページ全体を中央にまとめる箱 */
+    .container {
+      max-width: 420px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    /* ヘッダー（名前・タイトル） */
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    /* サブテキスト（説明文） */
+    .subtitle {
+      font-size: 14px;
+      color: #cbd5e1;
+      margin-bottom: 30px;
+    }
+
+    /* リンクボタン全体のエリア */
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    /* 各リンクボタン */
+    .link-button {
+      display: block;
+      text-decoration: none;
+      color: #ffffff;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    /* ボタンにマウスを乗せたとき（スマホではタップ時） */
+    .link-button:hover {
+      background: rgba(255, 255, 255, 0.18);
+      transform: translateY(-2px);
+    }
+
+    /* フッター（小さな表記） */
+    .footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    /* スマホでも見やすくする微調整 */
+    @media (max-width: 480px) {
+      .container {
+        padding: 30px 16px;
+      }
+    }
+  </style>
+  <!-- ===== スタイル（デザイン）ここまで ===== -->
+</head>
+
+<body>
+
+  <!-- ページ全体 -->
+  <div class="container">
+
+    <!-- ===== ヘッダー（名前） ===== -->
+    <!-- ★ここを自分の名前・ブランド名に変更してください -->
+    <div class="title">Night Cafe VIBE</div>
+
+    <!-- ===== サブテキスト（一言説明） ===== -->
+    <!-- ★不要ならこの行を消してもOK -->
+    <div class="subtitle">Links & Profile</div>
+
+    <!-- ===== リンクボタン ===== -->
+    <div class="links">
+
+      <!-- ★リンク先URLと文字を自由に変更してください -->
+      <a class="link-button" href="https://www.youtube.com/" target="_blank">
+        YouTube
+      </a>
+
+      <a class="link-button" href="https://www.instagram.com/" target="_blank">
+        Instagram
+      </a>
+
+      <a class="link-button" href="https://www.tiktok.com/" target="_blank">
+        TikTok
+      </a>
+
+      <a class="link-button" href="https://booth.pm/" target="_blank">
+        BOOTH
+      </a>
+
+      <a class="link-button" href="#" target="_blank">
+        Contact
+      </a>
+
+    </div>
+
+    <!-- ===== フッター ===== -->
+    <!-- ★削除・編集OK -->
+    <div class="footer">
+      Template by Lupinus
+    </div>
+
+  </div>
+
+</body>
+</html>
