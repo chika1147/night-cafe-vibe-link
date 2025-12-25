@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
 }
 
-/* ===== 肉球背景 ===== */
+/* ====== 肉球背景 ====== */
 body::after {
   content: "🐾 🐾 🐾";
   position: fixed;
@@ -26,14 +26,16 @@ body::after {
 }
 
 
-/* 👇 スマホ1台分の箱 */
+/* 📱 スマホ1台分の箱 */
 .phone {
   width: 100%;
-  max-width: 390px;   /* ← iPhone縦サイズ */
+  max-width: 390px; /* iPhone縦サイズ */
+  margin: 0 auto;
   padding: 16px;
 }
 
-/* ===== タイトル ===== */
+
+/* ====== タイトル ====== */
 .title {
   font-size: 1.6rem;
   font-weight: bold;
