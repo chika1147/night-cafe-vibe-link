@@ -5,74 +5,53 @@
   padding: 0;
 }
 
-/* ===== 全体 ===== */
+/* 全体 */
 body {
   min-height: 100vh;
-  font-family: "Hiragino Maru Gothic ProN", "Noto Sans JP", sans-serif;
-  color: #5a4a4a;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
   background: linear-gradient(180deg, #ffe9f1, #e8f6ff);
-  overflow-x: hidden;
+  text-align: center;
 }
 
-/* ====== 肉球背景 ====== */
-body::after {
-  content: "🐾 🐾 🐾";
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 2rem;
-  opacity: 0.15;
-  pointer-events: none;
-}
-
-
-/* 📱 スマホ1台分の箱 */
+/* スマホ画面っぽい箱 */
 .phone {
-  width: 100%;
   max-width: 390px; /* iPhone縦サイズ */
   margin: 0 auto;
-  padding: 16px;
+  padding: 24px 16px;
 }
 
-
-/* ====== タイトル ====== */
+/* タイトル */
 .title {
   font-size: 1.6rem;
-  font-weight: bold;
-  letter-spacing: 0.1em;
-  margin-bottom: 6px;
   color: #ff7fa8;
+  margin-bottom: 6px;
+  letter-spacing: 0.15em;
 }
 
-/* ===== サブタイトル ===== */
+/* サブタイトル */
 .subtitle {
   font-size: 0.9rem;
-  color: #8a7a7a;
-  margin-bottom: 28px;
+  color: #777;
+  margin-bottom: 24px;
 }
 
-/* ===== リンク ===== */
-.links a {
-  display: block;
+/* リンクボタン */
+.link {
+  display: block;              /* ← 横並びをやめる */
   margin: 14px 0;
-  padding: 15px;
-  border-radius: 999px;
-  text-decoration: none;
-  color: #ffffff;
-  background: linear-gradient(135deg, #ff9ec4, #ffb7d9);
+  padding: 16px;
+  background: linear-gradient(90deg, #ffb3d9, #ffc6e5);
+  color: white;
+  text-decoration: none;       /* ← 下線を消す */
+  border-radius: 999px;        /* ← まるいボタン */
+  font-size: 1.1rem;
   font-weight: bold;
-  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-/* ===== ホバー ===== */
-.links a:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(255, 150, 190, 0.5);
+/* フッター */
+.footer {
+  margin-top: 24px;
+  font-size: 0.8rem;
+  color: #999;
 }
 
-/* ===== フッター ===== */
-footer {
-  margin-top: 36px;
-  font-size: 0.75rem;
-  color: #b59aa0;
-}
