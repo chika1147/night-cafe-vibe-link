@@ -5,20 +5,27 @@
   padding: 0;
 }
 
-/* 全体 */
-body {
-  min-height: 100vh;
-  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
-  background: linear-gradient(180deg, #ffe9f1, #e8f6ff);
-  text-align: center;
+
+/* ===== 猫（肉球）背景 ===== */
+body::after {
+  content: "🐾 🐾 🐾";
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  font-size: 2rem;
+  opacity: 0.2;
+
+  pointer-events: none; /* 押せない背景 */
+  z-index: 0;           /* いちばん後ろ */
 }
 
-/* スマホ画面っぽい箱 */
+
 .phone {
-  max-width: 390px; /* iPhone縦サイズ */
-  margin: 0 auto;
-  padding: 24px 16px;
+  position: relative;
+  z-index: 1; /* 猫より前に出す */
 }
+
 
 /* タイトル */
 .title {
