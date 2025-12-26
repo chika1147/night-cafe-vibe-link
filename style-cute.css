@@ -35,18 +35,47 @@ body {
   margin-bottom: 24px;
 }
 
-/* リンクボタン */
+/* ===== リンクボタン ===== */
 .link {
-  display: block;              /* ← 横並びをやめる */
-  margin: 14px 0;
-  padding: 16px;
-  background: linear-gradient(90deg, #ffb3d9, #ffc6e5);
-  color: white;
-  text-decoration: none;       /* ← 下線を消す */
-  border-radius: 999px;        /* ← まるいボタン */
-  font-size: 1.1rem;
-  font-weight: bold;
+  display: block;                 /* ボタンを横いっぱいに */
+  width: 100%;
+  max-width: 360px;               /* スマホ幅にちょうどいい */
+  margin: 14px auto;              /* 上下のすき間＋中央寄せ */
+
+  padding: 16px 0;                /* ボタンの高さ */
+  text-align: center;             /* 文字を真ん中 */
+  text-decoration: none;          /* 下線を消す */
+
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+
+  color: #ffffff;                 /* 文字は白 */
+  background: linear-gradient(
+    135deg,
+    #ffb6d5,
+    #ff8fb8
+  );                               /* かわいいピンク */
+
+  border-radius: 999px;           /* まるっこいボタン */
+  box-shadow: 0 8px 20px rgba(255, 143, 184, 0.4);
+
+  transition: all 0.25s ease;     /* なめらか動き */
 }
+
+/* ===== 指を乗せたとき ===== */
+.link:hover {
+  transform: translateY(-3px);    /* ちょっと浮く */
+  box-shadow: 0 12px 28px rgba(255, 143, 184, 0.6);
+  filter: brightness(1.05);       /* 少し明るく */
+}
+
+/* ===== 押したとき ===== */
+.link:active {
+  transform: translateY(1px);     /* 押し込み感 */
+  box-shadow: 0 6px 14px rgba(255, 143, 184, 0.4);
+}
+
 
 /* フッター */
 .footer {
