@@ -20,6 +20,9 @@ body::after {
 
 
 .phone {
+  width: 100%;
+  max-width: 390px;
+  padding: 16px;
   position: relative;
   z-index: 1;
 }
