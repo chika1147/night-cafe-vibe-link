@@ -6,24 +6,22 @@
 }
 
 
-/* ====== 猫（肉球）背景 ====== */
 body::after {
   content: "🐾 🐾 🐾";
   position: fixed;
-  bottom: 16px;
-  right: 16px;
-
-  font-size: 2.5rem;   /* 少し大きく */
-  opacity: 0.35;       /* 濃くする */
-
+  bottom: 20px;
+  right: 20px;
+  font-size: 2rem;
+  opacity: 0.2;
   pointer-events: none;
   z-index: 0;
 }
 
 
+
 .phone {
   position: relative;
-  z-index: 1; /* 猫より前に出す */
+  z-index: 1;
 }
 
 
