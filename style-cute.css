@@ -9,20 +9,21 @@
 body {
   min-height: 100vh;
   font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
-  color: #5a4a4a;
+  color: #444;
 
-  /* 🌸 ベースのピンク */
-  background-color: #fff0f5;
+  /* 🌸 ピンク背景 */
+  background-color: #fff0f6;
 
-  /* 🐾 肉球パターン */
+  /* 🐾 黒い肉球パターン */
   background-image:
-    radial-gradient(circle at 25px 25px, rgba(255,140,180,0.6) 6px, transparent 7px),
-    radial-gradient(circle at 45px 25px, rgba(255,140,180,0.6) 4px, transparent 5px),
-    radial-gradient(circle at 15px 25px, rgba(255,140,180,0.6) 4px, transparent 5px),
-    radial-gradient(circle at 25px 45px, rgba(255,140,180,0.6) 4px, transparent 5px);
+    radial-gradient(circle at 24px 24px, rgba(0,0,0,0.35) 6px, transparent 7px),
+    radial-gradient(circle at 44px 24px, rgba(0,0,0,0.35) 4px, transparent 5px),
+    radial-gradient(circle at 14px 24px, rgba(0,0,0,0.35) 4px, transparent 5px),
+    radial-gradient(circle at 24px 44px, rgba(0,0,0,0.35) 4px, transparent 5px);
 
   background-size: 80px 80px;
 }
+
 
 
 /* スマホ画面っぽい箱 */
