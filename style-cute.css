@@ -32,11 +32,10 @@ body {
 
 /* スマホ画面っぽい箱 */
 .phone {
-  background: rgba(255, 246, 250, 0.85);
-  padding: 32px 0;
-  border-radius: 32px;
+  max-width: 360px;
+  margin: 0 auto;
+  text-align: center;
 }
-
 
 /* タイトル */
 .title {
