@@ -4,24 +4,23 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   background-color: #ffe6ef;
 
   background-image:
     /* 肉球の下（大きい） */
-    radial-gradient(circle at 40px 52px, rgba(0,0,0,0.55) 16px, transparent 17px),
+    radial-gradient(circle at 45px 58px, rgba(0,0,0,0.8) 20px, transparent 21px),
 
     /* 指（左） */
-    radial-gradient(circle at 22px 30px, rgba(0,0,0,0.55) 7px, transparent 8px),
+    radial-gradient(circle at 25px 32px, rgba(0,0,0,0.8) 9px, transparent 10px),
 
     /* 指（中央） */
-    radial-gradient(circle at 40px 22px, rgba(0,0,0,0.55) 7px, transparent 8px),
+    radial-gradient(circle at 45px 22px, rgba(0,0,0,0.8) 9px, transparent 10px),
 
     /* 指（右） */
-    radial-gradient(circle at 58px 30px, rgba(0,0,0,0.55) 7px, transparent 8px);
+    radial-gradient(circle at 65px 32px, rgba(0,0,0,0.8) 9px, transparent 10px);
 
-  background-size: 90px 90px;
+  background-size: 110px 110px;
 }
 
 
