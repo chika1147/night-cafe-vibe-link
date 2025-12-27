@@ -6,31 +6,22 @@
 }
 
 
-body::after {
-  content: "🐾 🐾 🐾";
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  font-size: 2rem;
-  opacity: 0.2;
-  pointer-events: none;
-  z-index: 0;
-}
+body {
+  min-height: 100vh;
+  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+  color: #5a4a4a;
 
+  /* 🌸 ベースのピンク */
+  background-color: #fff0f5;
 
-  /* 背景色（ベース） */
-  background-color: #fff0f6;
-
-  /* 🐾 肉球だらけ背景（濃いめ） */
+  /* 🐾 肉球パターン */
   background-image:
-    radial-gradient(circle at 20px 20px, rgba(255, 140, 170, 0.55) 6px, transparent 7px),
-    radial-gradient(circle at 40px 30px, rgba(255, 140, 170, 0.55) 4px, transparent 5px),
-    radial-gradient(circle at 60px 20px, rgba(255, 140, 170, 0.55) 4px, transparent 5px),
-    radial-gradient(circle at 30px 50px, rgba(255, 140, 170, 0.55) 4px, transparent 5px),
-    radial-gradient(circle at 50px 50px, rgba(255, 140, 170, 0.55) 4px, transparent 5px);
+    radial-gradient(circle at 25px 25px, rgba(255,140,180,0.6) 6px, transparent 7px),
+    radial-gradient(circle at 45px 25px, rgba(255,140,180,0.6) 4px, transparent 5px),
+    radial-gradient(circle at 15px 25px, rgba(255,140,180,0.6) 4px, transparent 5px),
+    radial-gradient(circle at 25px 45px, rgba(255,140,180,0.6) 4px, transparent 5px);
 
-  /* 肉球の並び間隔 */
-  background-size: 120px 120px;
+  background-size: 80px 80px;
 }
 
 
