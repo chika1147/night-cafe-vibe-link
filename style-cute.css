@@ -71,12 +71,11 @@ body {
 .link {
   display: block;
 
-  width: 260px;        /* 横幅を小さく */
-  padding: 12px 0;     /* 高さをスリムに */
+  width: 260px;
+  padding: 12px 0;
+  margin: 12px auto;
 
-  margin: 12px auto;  /* 間隔も少しだけ */
-
-  font-size: 16px;    /* 文字を少し小さく */
+  font-size: 16px;
   font-weight: 600;
 
   color: #fff;
@@ -90,18 +89,21 @@ body {
 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.link {
-  width: 240px;      /* ← 260 → 240 */
-  padding: 10px 0;   /* ← 12 → 10 */
-  font-size: 15px;   /* ← 16 → 15 */
+
+@media (max-width: 480px) {
+  .link {
+    width: 220px;
+    padding: 8px 0;
+    font-size: 14px;
+  }
 }
 
 
-/* 押したとき */
 .link:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 24px rgba(255, 150, 200, 0.45);
+  transform: scale(0.96);
+  box-shadow: 0 3px 8px rgba(255, 154, 203, 0.4);
 }
+
 
 
 /* フッター */
