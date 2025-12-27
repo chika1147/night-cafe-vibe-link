@@ -24,19 +24,27 @@ body {
 }
 
 
+/* 🌸 ピンク背景＋黒い肉球パターン */
+body {
+  margin: 0;
+  padding: 0;
 
-  /* 🌸 ピンク背景 */
   background-color: #fff0f6;
 
-  /* 🐾 黒い肉球パターン */
   background-image:
-    radial-gradient(circle at 24px 24px, rgba(0,0,0,0.35) 6px, transparent 7px),
-    radial-gradient(circle at 44px 24px, rgba(0,0,0,0.35) 4px, transparent 5px),
-    radial-gradient(circle at 14px 24px, rgba(0,0,0,0.35) 4px, transparent 5px),
-    radial-gradient(circle at 24px 44px, rgba(0,0,0,0.35) 4px, transparent 5px);
+    /* 肉球の下（大） */
+    radial-gradient(circle at 40px 52px, rgba(0,0,0,0.35) 16px, transparent 17px),
+
+    /* 指（左） */
+    radial-gradient(circle at 22px 30px, rgba(0,0,0,0.35) 7px, transparent 8px),
+
+    /* 指（中央） */
+    radial-gradient(circle at 40px 22px, rgba(0,0,0,0.35) 7px, transparent 8px),
+
+    /* 指（右） */
+    radial-gradient(circle at 58px 30px, rgba(0,0,0,0.35) 7px, transparent 8px);
 
   background-size: 120px 120px;
-
 }
 
 
