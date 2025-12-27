@@ -30,12 +30,14 @@ body {
 }
 
 
-/* スマホ画面っぽい箱 */
-.phone {
-  max-width: 360px;
-  margin: 0 auto;
+/* .phone {
+  position: relative;
+  z-index: 1;
+
+  /* 👇 これを追加 */
   text-align: center;
 }
+
 
 
 /* タイトル */
