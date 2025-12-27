@@ -90,6 +90,11 @@ body {
 
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+.link {
+  width: 240px;      /* ← 260 → 240 */
+  padding: 10px 0;   /* ← 12 → 10 */
+  font-size: 15px;   /* ← 16 → 15 */
+}
 
 
 /* 押したとき */
