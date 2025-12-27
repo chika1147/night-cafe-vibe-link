@@ -15,18 +15,18 @@ body {
 
   background-image:
     /* 肉球の下（大） */
-    radial-gradient(circle at 40px 52px, rgba(0,0,0,0.35) 16px, transparent 17px),
+    radial-gradient(circle at 40px 55px, rgba(0,0,0,0.55) 14px, transparent 15px),
 
     /* 指（左） */
-    radial-gradient(circle at 22px 30px, rgba(0,0,0,0.35) 7px, transparent 8px),
+    radial-gradient(circle at 24px 30px, rgba(0,0,0,0.55) 6px, transparent 7px),
 
     /* 指（中央） */
-    radial-gradient(circle at 40px 22px, rgba(0,0,0,0.35) 7px, transparent 8px),
+    radial-gradient(circle at 40px 22px, rgba(0,0,0,0.55) 6px, transparent 7px),
 
     /* 指（右） */
-    radial-gradient(circle at 58px 30px, rgba(0,0,0,0.35) 7px, transparent 8px);
+    radial-gradient(circle at 56px 30px, rgba(0,0,0,0.55) 6px, transparent 7px);
 
-  background-size: 120px 120px;
+  background-size: 100px 100px;
 }
 
 
