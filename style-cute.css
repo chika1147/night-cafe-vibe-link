@@ -7,13 +7,23 @@
 
 body {
   background-color: #ffe6ef;
+
   background-image:
-    radial-gradient(circle at 20px 20px, rgba(0,0,0,0.5) 6px, transparent 7px),
-    radial-gradient(circle at 40px 20px, rgba(0,0,0,0.5) 4px, transparent 5px),
-    radial-gradient(circle at 10px 20px, rgba(0,0,0,0.5) 4px, transparent 5px),
-    radial-gradient(circle at 20px 40px, rgba(0,0,0,0.5) 4px, transparent 5px);
-  background-size: 70px 70px;
+    /* 肉球の下（大きい） */
+    radial-gradient(circle at 40px 52px, rgba(0,0,0,0.55) 16px, transparent 17px),
+
+    /* 指（左） */
+    radial-gradient(circle at 22px 30px, rgba(0,0,0,0.55) 7px, transparent 8px),
+
+    /* 指（中央） */
+    radial-gradient(circle at 40px 22px, rgba(0,0,0,0.55) 7px, transparent 8px),
+
+    /* 指（右） */
+    radial-gradient(circle at 58px 30px, rgba(0,0,0,0.55) 7px, transparent 8px);
+
+  background-size: 90px 90px;
 }
+
 
 
   /* 🌸 ピンク背景 */
