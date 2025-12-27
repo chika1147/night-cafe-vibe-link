@@ -5,11 +5,16 @@
   padding: 0;
 }
 
-
 body {
-  min-height: 100vh;
-  font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
-  color: #444;
+  background-color: #ffe6ef;
+  background-image:
+    radial-gradient(circle at 20px 20px, rgba(0,0,0,0.5) 6px, transparent 7px),
+    radial-gradient(circle at 40px 20px, rgba(0,0,0,0.5) 4px, transparent 5px),
+    radial-gradient(circle at 10px 20px, rgba(0,0,0,0.5) 4px, transparent 5px),
+    radial-gradient(circle at 20px 40px, rgba(0,0,0,0.5) 4px, transparent 5px);
+  background-size: 70px 70px;
+}
+
 
   /* 🌸 ピンク背景 */
   background-color: #fff0f6;
