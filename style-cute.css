@@ -35,21 +35,16 @@ body {
     radial-gradient(circle at 14px 24px, rgba(0,0,0,0.35) 4px, transparent 5px),
     radial-gradient(circle at 24px 44px, rgba(0,0,0,0.35) 4px, transparent 5px);
 
-  background-size: 80px 80px;
+  background-size: 120px 120px;
+
 }
 
 
 /* スマホ画面っぽい箱 */
 .phone {
-  max-width: 390px;        /* iPhone縦サイズ */
-  width: 100%;
-  margin: 0 auto;          /* ← これで中央寄せ！ */
-
-  padding: 24px 16px;
-  text-align: center;
-
-  position: relative;
-  z-index: 1;
+  background: rgba(255, 246, 250, 0.85);
+  padding: 32px 0;
+  border-radius: 32px;
 }
 
 
