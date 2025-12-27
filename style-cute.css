@@ -6,10 +6,17 @@
 }
 
 
-body {
-  min-height: 100vh;
-  font-family: "Hiragino Maru Gothic ProN", "Noto Sans JP", sans-serif;
-  color: #5a4a4a;
+body::after {
+  content: "🐾 🐾 🐾";
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 2rem;
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 0;
+}
+
 
   /* 背景色（ベース） */
   background-color: #fff0f6;
