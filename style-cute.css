@@ -4,24 +4,6 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: #ffe6ef;
-
-  background-image:
-    /* 肉球の下（大きい） */
-    radial-gradient(circle at 45px 58px, rgba(0,0,0,0.8) 20px, transparent 21px),
-
-    /* 指（左） */
-    radial-gradient(circle at 25px 32px, rgba(0,0,0,0.8) 9px, transparent 10px),
-
-    /* 指（中央） */
-    radial-gradient(circle at 45px 22px, rgba(0,0,0,0.8) 9px, transparent 10px),
-
-    /* 指（右） */
-    radial-gradient(circle at 65px 32px, rgba(0,0,0,0.8) 9px, transparent 10px);
-
-  background-size: 110px 110px;
-}
 
 
 /* 🌸 ピンク背景＋黒い肉球パターン */
