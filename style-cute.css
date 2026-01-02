@@ -30,13 +30,14 @@ body {
 }
 
 
-/* .phone {
-  position: relative;
-  z-index: 1;
+.phone {
+  background: rgba(255, 246, 250, 0.85);
+  padding: 32px 0;
+  border-radius: 32px;
 
-  /* 👇 これを追加 */
-  text-align: center;
+  text-align: center; /* ← これが超重要 */
 }
+
 
 
 
